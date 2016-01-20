@@ -11,17 +11,12 @@ paginate_path: "/posts/:num/"
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble:
   email: zoruasmr@gmail.com
   facebook: Zoruasmr
-  flickr:
   github: zoruninho
   instagram: zoruasmr/
   linkedin: pfacq
-  pinterest:
-  rss: # just type anything here for a working RSS icon
   twitter: zoruasmr
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: user/Zoruasmr # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
@@ -32,24 +27,44 @@ google_analytics: UA-45012883-1
 # Used for Sitemap.xml and your RSS feed
 url: http://www.zoru.co
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+#Language configuration
+defaults:
+  -
+    scope:
+      path: "_posts/en"
+    values:
+      lang: "en"
+      layout: "post"
+  -
+    scope:
+      path: "_posts/fr"
+    values:
+      lang: "fr"
+      layout: "post"
+  -
+    scope:
+      path: "pages/fr"
+    values:
+      lang: "fr"
+      layout: "page"
+  -
+    scope:
+      path: "pages/en"
+    values:
+      lang: "en"
+      layout: "page"
 
 # Dependencies
 
 markdown: redcarpet
+redcarpet:
+  extensions: ['smart', 'superscript']
+  
 highlighter: pygments
-permalink: /:title/
 
 # Permalinks
 
 permalink: /:categories/:title
-
-# The release of Jekyll Now that you're using
-version: v3.0.1
 
 # Set the Sass partials directory, as we're using @imports
 sass:

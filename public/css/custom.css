@@ -16,3 +16,13 @@
 .post-content-truncate img {
 	max-width: 400px;
 }
+
+/* Sidebar design */
+
+.sidebar-about h1 {
+    font-size: 2.25rem;
+}
+
+.en:lang(en), .fr:lang(fr){
+    font-weight: bold;
+}
