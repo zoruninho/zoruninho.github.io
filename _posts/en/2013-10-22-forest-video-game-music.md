@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Forest - Video game music"
-name : musicForest
+id : "musicForest"
 ---
 
 An online acquaintance wanted to try to create a little **video game** with some of his friends. His project was an RPG game, with some **forest** moments.

@@ -23,6 +23,19 @@
     font-size: 2.25rem;
 }
 
-.en:lang(en), .fr:lang(fr){
-    font-weight: bold;
+.langswitch {
+	float:right;
+}
+
+li.lang {
+	display:inline;
+	list-style:none;
+}
+
+li.lang:not(:first-child)::before {
+	content: " | ";
+}
+
+.en:lang(en), .fr:lang(fr) {
+	font-weight: bold;
 }

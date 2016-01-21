@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "Forest - Une musique pour jeux vidéo"
-name : musicForest
+id : "musicForest"
 ---
 
 Une connaissance sur internet voulait créer un petit **jeu vidéo** avec quelques uns de ses amis. Son projet était de réaliser un jeu de type RPG avec quelques moments qui se seraient situés dans une **forêt** .
