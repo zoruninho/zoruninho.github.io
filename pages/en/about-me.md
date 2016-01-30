@@ -1,7 +1,7 @@
 ---
 title: "About Me"
-id: "aboutMe"
-order : 1
+idName: "aboutMe"
+order : 2
 ---
 
 Hi !

@@ -1,6 +1,7 @@
 ---
 title: "Qui suis-je"
-id: "aboutMe"
+idName: "aboutMe"
+order: 2
 ---
 Bienvenue !
 

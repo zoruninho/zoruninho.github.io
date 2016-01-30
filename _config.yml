@@ -5,10 +5,6 @@ description:      'Personnal website of Zoru, student and content producer'
 url:              http://zoru.co
 baseurl:          ""
 
-#Pagination setup
-paginate:         5
-paginate_path: "/posts/:num/"
-
 # Includes an icon in the footer for each username you enter
 footer-links:
   email: zoruasmr@gmail.com
@@ -53,6 +49,7 @@ defaults:
     values:
       lang: "en"
       layout: "page"
+
 
 # Dependencies
 
