@@ -54,10 +54,8 @@ defaults:
 # Dependencies
 
 markdown: kramdown
-redcarpet:
-  extensions: ['smart', 'superscript']
   
-highlighter: pygments
+highlighter: rouge
 
 # Permalinks
 
