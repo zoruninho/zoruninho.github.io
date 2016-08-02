@@ -53,7 +53,7 @@ defaults:
 
 # Dependencies
 
-markdown: redcarpet
+markdown: kramdown
 redcarpet:
   extensions: ['smart', 'superscript']
   
