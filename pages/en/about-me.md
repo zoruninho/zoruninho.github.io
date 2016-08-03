@@ -6,7 +6,7 @@ order : 2
 
 Hi !
 
-I'm a 21 year old french student currently living in Normandy.
+I'm a 22 year old french student currently living in Normandy.
 
 I create [ASMR videos](https://www.youtube.com/user/Zoruasmr "my channel"), which are relaxing ones. If you want to learn more about ASMR, go check the [Wikipedia page](http://en.wikipedia.org/wiki/Autonomous_sensory_meridian_response "wikipedia asmr")!
 

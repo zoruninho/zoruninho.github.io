@@ -5,7 +5,7 @@ order: 2
 ---
 Bienvenue !
 
-Je suis un étudiant de 21 ans qui habite actuellement en Normandie.
+Je suis un étudiant de 22 ans qui habite actuellement en Normandie.
 
 Je réalise des [vidéos ASMR](https://www.youtube.com/user/Zoruasmr "my channel"), qui sont des vidéos dédiées à la relaxation. Si vous voulez en apprendre davantage sur l'ASMR, n'hésitez pas à consulter la [page Wikipedia](http://fr.wikipedia.org/wiki/Autonomous_sensory_meridian_response "wikipedia asmr")!
 
