@@ -1,7 +1,8 @@
 # Setup
 title:            Zoru.co
 tagline:          'ASMR and stuff'
-description:      'Personnal website of Zoru, student and content producer'
+descriptionEN:    'Personal website of Zoru, student and content producer'
+descriptionFR:    'Site web personel de Zoru, étudiant et créateur de contenu'
 url:              http://zoru.co
 baseurl:          ""
 

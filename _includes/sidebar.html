@@ -45,11 +45,17 @@
         {% endif %}
       </ul>
       <h1>
-        <a href="{{ site.baseurl }}/">
+        <a href="{{ site.baseurl }}/{% if page.lang == 'fr' %}fr/{% endif %}">
           {{ site.title }}
         </a>
       </h1>
-      <p class="lead">{{ site.description }}</p>
+      <p class="lead">
+          {% if page.lang == "en" %}
+            {{ site.descriptionEN }}
+          {% else if page.lang == "fr" %}
+            {{ site.descriptionFR }}
+          {% endif %}
+      </p>
     </div>
 
     <nav class="sidebar-nav">
