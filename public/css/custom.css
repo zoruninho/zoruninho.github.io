@@ -39,3 +39,9 @@ li.lang:not(:first-child)::before {
 .en:lang(en), .fr:lang(fr) {
 	font-weight: bold;
 }
+
+/* Content design */
+
+.text-center {
+	text-align: center;
+}
