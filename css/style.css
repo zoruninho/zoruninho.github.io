@@ -76,7 +76,7 @@ header p {
 
 .ss-style-doublediagonal {
     z-index: 1;
-    padding-top: 2em;
+    padding-top: 1em;
     background: white;
 }
 
@@ -163,6 +163,10 @@ section.main-content ul li a {
 section.main-content ul li a:hover {
     color: dimgray;
     font-size: 18px;
+}
+
+section.main-content .countdown {
+    margin-top: 20px;
 }
 
 section.footer p {
