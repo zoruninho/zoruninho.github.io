@@ -1,80 +1,42 @@
-# Setup
-title:            Zoru.co
-tagline:          'ASMR and stuff'
-descriptionEN:    'Personal website of Zoru, student and content producer'
-descriptionFR:    'Site web personel de Zoru, étudiant et créateur de contenu'
-url:              http://zoru.co
-baseurl:          ""
+# Site wide configuration
 
-# Includes an icon in the footer for each username you enter
-socialLinks:
+title: "Bientôt !"
+description: "Site personnel de Zoru"
+#if you modify locale please have a look at _data/messages.yml too
+locale: fr
+#for meta name="author" :
+author: Zoru
+
+#Target date in UTC / GMT
+countdown:
+  theme: red
+  year: 2020
+  month: 1
+  day: 1
+  hour: 0
+  minute: 0
+
+# Site owner
+owner:
+  name: Zoru
   email: zoruasmr@gmail.com
-  facebook: https://www.facebook.com/Zoruasmr/
-  github: https://github.com/zoruninho
-  instagram: https://www.instagram.com/zoruasmr/
-  linkedin: pfacq
-  twitter: https://twitter.com/Zoruasmr
-  youtube: https://www.youtube.com/user/Zoruasmr
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-45012883-1
-
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url: http://www.zoru.co
-
-#Language configuration
-defaults:
-  -
-    scope:
-      path: "_posts/en"
-    values:
-      lang: "en"
-      layout: "post"
-  -
-    scope:
-      path: "_posts/fr"
-    values:
-      lang: "fr"
-      layout: "post"
-  -
-    scope:
-      path: "pages/fr"
-    values:
-      lang: "fr"
-      layout: "page"
-  -
-    scope:
-      path: "pages/en"
-    values:
-      lang: "en"
-      layout: "page"
+  twitter: https://twitter.com/Zoruninho
+  google-plus:
+  instagram: https://www.instagram.com/zoru_insta/
+  #Aboutlink = German "Impressum", provide url and caption (eg "Impressum")
+  aboutlink:
+    url:
+    caption:
 
 
-# Dependencies
-
-markdown: kramdown
-  
+# Jekyll configuration
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
 highlighter: rouge
 
-# Permalinks
 
-permalink: /:categories/:title
-
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :expanded # You might prefer to minify using :compressed
-
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-  - jekyll-paginate #enables pagination
-
-# Exclude these files from your production _site
-exclude:
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - README.md
-    - CNAME
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

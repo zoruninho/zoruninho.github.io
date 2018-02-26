@@ -1,1 +1,1 @@
-Projet de site web personnel, basé sur Jekyll.
+Site personel de Zoru
