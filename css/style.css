@@ -71,12 +71,12 @@ header p {
 }
 
 .color {
-    background-color: #f64747
+    background-color: #605ca7
 }
 
 .ss-style-doublediagonal {
     z-index: 1;
-    padding-top: 1em;
+    padding-top: 0.8em;
     background: white;
 }
 
@@ -167,6 +167,7 @@ section.main-content ul li a:hover {
 
 section.main-content .countdown {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 section.footer p {
@@ -183,7 +184,7 @@ section.footer p a {
     z-index: 1;
     margin-top: 10%;
     padding-top: 5px;
-    background: #f64747;
+    background: #605ca7;
     color: white;
     padding-bottom: 10px;
 }
