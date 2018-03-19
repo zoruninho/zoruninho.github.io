@@ -243,6 +243,10 @@ p {
     margin-bottom: 60px;
 }
 
+.section-heading-smalltext {
+    font-size: 10px;
+}
+
 .line-shape-white,
 .line-shape {
     width: 80px;
@@ -446,7 +450,7 @@ p {
 .welcome-thumb {
     width: 45%;
     position: absolute;
-    bottom: -130px;
+    bottom: -60px;
     right: 85px;
     z-index: 9;
 }
@@ -457,7 +461,7 @@ p {
 }
 
 .welcome-heading > h2 {
-    font-size: 100px;
+    font-size: 60px;
     color: #ffffff;
     font-weight: 700;
     position: relative;
@@ -523,6 +527,8 @@ p {
 
 .welcome-heading > p {
     color: #fff;
+    font-size: 20px;
+    margin-top: 30px;
 }
 
 .welcome-heading > h3 {
@@ -538,7 +544,8 @@ p {
 }
 
 .welcome-heading {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    margin-top: -100px;
 }
 
 /* --------------------------
@@ -628,7 +635,7 @@ p {
 
 .app-download-btn a i {
     color: #fff;
-    font-size: 24px;
+    font-size: 45px;
     margin-right: 15px;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -636,7 +643,7 @@ p {
 }
 
 .app-download-btn a p {
-    font-size: 26px;
+    font-size: 30px;
     line-height: 1;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -645,7 +652,7 @@ p {
 }
 
 .app-download-btn a p span {
-    font-size: 15px;
+    font-size: 17px;
     display: block;
 }
 
@@ -1210,6 +1217,7 @@ p {
     color: #ffffff;
     font-weight: 500;
     border-radius: 22px 25px 22px 0;
+    cursor: pointer;
 }
 
 .btn.submit-btn:hover {
@@ -1234,17 +1242,17 @@ p {
 
 .footer-text > h2 {
     color: #5b32b4;
-    font-size: 72px;
+    font-size: 35px;
     font-weight: 700;
 }
 
 .footer-social-icon > a > i {
     background: #9b69e4;
-    font-size: 14px;
+    font-size: 35px;
     color: #ffffff;
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
     font-weight: 500;
     border-radius: 10px 10px 10px 0px;
     margin-right: 10px;
