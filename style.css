@@ -607,6 +607,7 @@ p {
     -ms-flex-preferred-size: 1;
     flex-basis: 1;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .app-download-btn a {
@@ -665,6 +666,16 @@ p {
 .app-download-btn.active a p,
 .app-download-btn a:hover p {
     color: #fff;
+}
+
+.app-download-otherlink {
+    color: white;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.app-download-otherlink:hover {
+    color: white;
 }
 
 /* --------------------------
@@ -782,12 +793,13 @@ p {
 .cool-facts-content > i {
     color: #ffffff;
     font-size: 36px;
+    margin-bottom: 10px;
 }
 
 .counter-area {
-    min-width: 100px;
     -ms-flex-item-align: end;
     align-self: flex-end;
+    padding-right: 20px;
 }
 
 .counter-area > h3 {

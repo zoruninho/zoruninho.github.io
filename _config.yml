@@ -7,28 +7,6 @@ locale: fr
 #for meta name="author" :
 author: Zoru
 
-#Target date in UTC / GMT
-countdown:
-  theme: red
-  year: 2018
-  month: 3
-  day: 25
-  hour: 19
-  minute: 0
-
-# Site owner
-owner:
-  name: Zoru
-  email: zoruasmr@gmail.com
-  twitter: Zoruninho
-  google-plus:
-  instagram: zoru_insta
-  #Aboutlink = German "Impressum", provide url and caption (eg "Impressum")
-  aboutlink:
-    url:
-    caption:
-
-
 # Jekyll configuration
 sass:
   sass_dir: _sass

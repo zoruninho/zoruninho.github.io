@@ -23,9 +23,30 @@
     <!-- Responsive CSS -->
     <link href="css/responsive.css" rel="stylesheet">
 
+    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/mikfeamnecigfmgjpbeedlaakhgmnief">
 </head>
 
 <body>
+    <!-- Installation modal -->
+    <div class="modal" tabindex="-1" role="dialog" id="chrome-modal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Installation en cours</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Google Chrome devrait te proposer d'installer l'extension directement. Si cela n'est pas le cas, il te suffit de <a href="https://chrome.google.com/webstore/detail/zoru/mikfeamnecigfmgjpbeedlaakhgmnief" target="_blank">cliquer ici</a> pour accéder au Chrome Web Store et l'installer.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Preloader Start -->
     <div id="preloader">
         <div class="colorlib-load"></div>
@@ -80,12 +101,13 @@
                     <div class="app-download-area">
                         <div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
                             <!-- Google Store Btn -->
-                            <a href="#">
+                            <a href="#" id="app-download-button">
                                 <i class="fa fa-chrome"></i>
                                 <p class="mb-0"><span>Télécharger pour </span> Google Chrome</p>
                             </a>
                         </div>
                     </div>
+                    <a href="" class="app-download-otherlink" id="app-download-otherlink" target="_blank">Aussi disponible pour Firefox</a>
                 </div>
             </div>
         </div>
@@ -170,11 +192,11 @@
                 <div class="col-12 col-md-3 col-lg-3">
                     <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
                         <div class="counter-area">
-                            <h3><span class="counter">90</span></h3>
+                            <h3><span class="counter">36</span></h3>
                         </div>
                         <div class="cool-facts-content">
-                            <i class="ion-arrow-down-a"></i>
-                            <p>APP <br> DOWNLOADS</p>
+                            <i class="fa fa-hourglass-end"></i>
+                            <p>ans de <br> développement</p>
                         </div>
                     </div>
                 </div>
@@ -182,11 +204,11 @@
                 <div class="col-12 col-md-3 col-lg-3">
                     <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s">
                         <div class="counter-area">
-                            <h3><span class="counter">120</span></h3>
+                            <h3><span class="counter">863</span></h3>
                         </div>
                         <div class="cool-facts-content">
-                            <i class="ion-happy-outline"></i>
-                            <p>Happy <br> Clients</p>
+                            <i class="fa fa-coffee"></i>
+                            <p>cafés <br> consommés</p>
                         </div>
                     </div>
                 </div>
@@ -194,11 +216,11 @@
                 <div class="col-12 col-md-3 col-lg-3">
                     <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.6s">
                         <div class="counter-area">
-                            <h3><span class="counter">40</span></h3>
+                            <h3><span class="counter">300</span></h3>
                         </div>
                         <div class="cool-facts-content">
-                            <i class="ion-person"></i>
-                            <p>ACTIVE <br>ACCOUNTS</p>
+                            <i class="fa fa-eur"></i>
+                            <p>millions <br> investis</p>
                         </div>
                     </div>
                 </div>
@@ -206,11 +228,11 @@
                 <div class="col-12 col-md-3 col-lg-3">
                     <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.8s">
                         <div class="counter-area">
-                            <h3><span class="counter">10</span></h3>
+                            <h3><span class="counter">0</span></h3>
                         </div>
                         <div class="cool-facts-content">
-                            <i class="ion-ios-star-outline"></i>
-                            <p>TOTAL <br>APP RATES</p>
+                            <i class="fa fa-user-secret"></i>
+                            <p>information <br>exagérée</p>
                         </div>
                     </div>
                 </div>
@@ -238,10 +260,9 @@
                             <img src="img/team-img/team-1.png" alt="">
                             <div class="team-hover-effects">
                                 <div class="team-social-icon">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    <a href="https://www.facebook.com/Zoruninho"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="https://www.twitter.com/Zoruninho"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="https://www.instagram.com/zoru_insta"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -257,10 +278,9 @@
                             <img src="img/team-img/team-2.jpg" alt="">
                             <div class="team-hover-effects">
                                 <div class="team-social-icon">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    <a href="https://www.facebook.com/Zoruninho"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="https://www.twitter.com/Zoruninho"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="https://www.instagram.com/zoru_insta"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -276,10 +296,9 @@
                             <img src="img/team-img/team-3.jpg" alt="">
                             <div class="team-hover-effects">
                                 <div class="team-social-icon">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    <a href="https://www.facebook.com/Zoruninho"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="https://www.twitter.com/Zoruninho"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="https://www.instagram.com/zoru_insta"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -295,10 +314,9 @@
                             <img src="img/team-img/team-4.jpg" alt="">
                             <div class="team-hover-effects">
                                 <div class="team-social-icon">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    <a href="https://www.facebook.com/Zoruninho"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="https://www.twitter.com/Zoruninho"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="https://www.instagram.com/zoru_insta"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -409,6 +427,10 @@
     <script src="js/slick.min.js"></script>
     <!-- Footer Reveal JS -->
     <script src="js/footer-reveal.min.js"></script>
+    <!-- UA Parser JS -->
+    <script src="js/ua-parser.min.js"></script>
+    <!-- Download Button JS -->
+    <script src="js/download-button.js"></script>
     <!-- Active JS -->
     <script src="js/active.js"></script>
 </body>
