@@ -17,7 +17,7 @@
 				$downloadButton.html('<i class="fa fa-chrome"></i><p class="mb-0"><span>Télécharger pour </span> Google Chrome</p>');
 				$downloadButton.click(function() {
 					chrome.webstore.install(null, function() {
-						$downloadButton.html('<i class="fa fa-check"></i>&nbsp;&nbsp;&nbsp;Extension installée !');
+						$downloadButton.html('<i class="fa fa-check"></i><p class="mb-0">Extension installée !</p>');
 						$('#chrome-modal').modal('hide');
 					});
 					$('#chrome-modal').modal('show');
