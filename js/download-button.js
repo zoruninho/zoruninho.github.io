@@ -15,13 +15,7 @@
 				$downloadButton.html('<i class="fa fa-check"></i><p class="mb-0">Extension déjà installée !</p>');
 			} else {
 				$downloadButton.html('<i class="fa fa-chrome"></i><p class="mb-0"><span>Télécharger pour </span> Google Chrome</p>');
-				$downloadButton.click(function() {
-					chrome.webstore.install(null, function() {
-						$downloadButton.html('<i class="fa fa-check"></i><p class="mb-0">Extension installée !</p>');
-						$('#chrome-modal').modal('hide');
-					});
-					$('#chrome-modal').modal('show');
-				});
+				$downloadButton.attr('href', 'https://chrome.google.com/webstore/detail/zoru/mikfeamnecigfmgjpbeedlaakhgmnief');
 				$downloadOther.html('<i class="fa fa-firefox" style="margin-right:10px"></i>Aussi disponible sur Mozilla Firefox');
 				$downloadOther.attr('href', 'https://addons.mozilla.org/fr/firefox/addon/zoru/');
 			}
